@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Users</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .user-profile-wrapper {
+        width: 90%;
+        margin: auto;
+        border:1px solid salmon;
+        padding:10px;
+    }
+        </style>
+
+</head>
+<body>
+    <div class="user-profile-wrapper">
+        <h2>Welcome to Users Board</h2>
+        <button class="logout">Logout</button>
+
+    </div>
+    <script src="./js/script.js"></script>
+    <script>
+        console.log('users',users)
+        const logoutButton = document.querySelector('.logout');
+        logoutButton.addEventListener('click',(e) => {
+            console.log(e.target);
+            window.location.pathname = '/'
+        })
+    
+    
+    </script>
+    
+    
+</body>
+</html>
