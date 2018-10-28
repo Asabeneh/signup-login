@@ -57,5 +57,5 @@ console.log(users)
 
 loginButton.addEventListener('click', (e) => {
     e.preventDefault();
-    window.location.pathname = "/users.html";
+    window.location.pathname = "../html/users.html";
 })
